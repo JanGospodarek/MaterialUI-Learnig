@@ -7,6 +7,8 @@ import { MuiTypography } from "./components/MuiTypography";
 import { MuiTextField } from "./components/TextField";
 import { MuiRadio } from "./components/MuiRadio";
 import { MuiCheckbox } from "./components/MuiCheckbox";
+import { MuiSwitch } from "./components/MuiSwitch";
+import { MuiBox } from "./components/MuiBox";
 function App() {
   return (
     <Stack className="App">
@@ -15,7 +17,9 @@ function App() {
       {/* <MuiTextField></MuiTextField> */}
       {/* <MuiSelect></MuiSelect> */}
       {/* <MuiRadio></MuiRadio> */}
-      <MuiCheckbox></MuiCheckbox>
+      {/* <MuiCheckbox></MuiCheckbox> */}
+      {/* <MuiSwitch></MuiSwitch> */}
+      <MuiBox></MuiBox>
     </Stack>
   );
 }
