@@ -9,6 +9,10 @@ import { MuiRadio } from "./components/MuiRadio";
 import { MuiCheckbox } from "./components/MuiCheckbox";
 import { MuiSwitch } from "./components/MuiSwitch";
 import { MuiBox } from "./components/MuiBox";
+import { MuiCard } from "./components/MuiCard";
+import { MuiAccordion } from "./components/MuiAccordion";
+import { MuiImageList } from "./components/MuiImageList";
+import { MuiNavbar } from "./components/MuiNavbar";
 function App() {
   return (
     <Stack className="App">
@@ -19,7 +23,11 @@ function App() {
       {/* <MuiRadio></MuiRadio> */}
       {/* <MuiCheckbox></MuiCheckbox> */}
       {/* <MuiSwitch></MuiSwitch> */}
-      <MuiBox></MuiBox>
+      {/* <MuiBox></MuiBox> */}
+      {/* <MuiCard></MuiCard> */}
+      {/* <MuiAccordion></MuiAccordion> */}
+      {/* <MuiImageList></MuiImageList> */}
+      <MuiNavbar></MuiNavbar>
     </Stack>
   );
 }
