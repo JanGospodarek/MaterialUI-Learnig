@@ -13,6 +13,11 @@ import { MuiCard } from "./components/MuiCard";
 import { MuiAccordion } from "./components/MuiAccordion";
 import { MuiImageList } from "./components/MuiImageList";
 import { MuiNavbar } from "./components/MuiNavbar";
+import { MuiLink } from "./components/MuiLink";
+import { MuiBread } from "./components/MuiBread";
+import { MuiDrawer } from "./components/MuiDrawer";
+import { MuiSpeed } from "./components/MuiSpeed";
+import { MuiBottomNav } from "./components/MuiBottomNav";
 function App() {
   return (
     <Stack className="App">
@@ -27,7 +32,12 @@ function App() {
       {/* <MuiCard></MuiCard> */}
       {/* <MuiAccordion></MuiAccordion> */}
       {/* <MuiImageList></MuiImageList> */}
-      <MuiNavbar></MuiNavbar>
+      {/* <MuiNavbar></MuiNavbar> */}
+      {/* <MuiLink></MuiLink>
+      <MuiBread></MuiBread> */}
+      <MuiDrawer></MuiDrawer>
+      <MuiSpeed></MuiSpeed>
+      <MuiBottomNav></MuiBottomNav>
     </Stack>
   );
 }
