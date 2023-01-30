@@ -21,6 +21,9 @@ import { MuiBottomNav } from "./components/MuiBottomNav";
 import { MuiAvatar } from "./components/MuiAvatar";
 import { MuiList } from "./components/MuiList";
 import { MuiChip } from "./components/MuiChip";
+import { MuiTable } from "./components/MuiTable";
+import { MuiSnackbar } from "./components/MuiSnackbar";
+import { MuiDial } from "./components/MuiDialog";
 function App() {
   return (
     <Stack className="App">
@@ -43,7 +46,10 @@ function App() {
       <MuiBottomNav></MuiBottomNav> */}
       {/* <MuiAvatar></MuiAvatar> */}
       {/* <MuiList></MuiList> */}
-      <MuiChip></MuiChip>
+      {/* <MuiChip></MuiChip>
+      <MuiTable></MuiTable>
+      <MuiSnackbar></MuiSnackbar> */}
+      <MuiDial></MuiDial>
     </Stack>
   );
 }
